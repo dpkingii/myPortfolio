@@ -14,6 +14,7 @@ body{
 
 body p{
     line-height: 1.5rem;
+    font-weight: 300;
 }
 
 #nav-menu{
@@ -21,15 +22,24 @@ body p{
     justify-content: space-around;
     align-items: flex-end;
 }
+#logo {
+    font-size: 1.5rem ;
+    margin-bottom: -.1rem !important;
+}
+
 
 #nav-menu a {
     margin: 0 1.5rem;
-    color: white;
     font-weight: 300;
+    color: white;
+    text-decoration: none;
+
 }
-#logo {
-    font-size: 1.5rem;
+
+#glink{
+    margin-bottom: -1rem;
 }
+
 
 #link{
     font-size: 1.5rem;
@@ -89,30 +99,52 @@ body p{
 #about p {
     margin-top: .5rem;
     align-self: flex-start;
-    font-weight: 400;
 }
 
-#experience{
+#experience-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 46rem;
     margin-top: 7rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-#experience h1 {
+#experience-container h1 {
+    padding-bottom: 1rem;
     margin-bottom: 0;
     align-self: flex-start;
     font-weight: 400;
 
+
 }
-#experience p {
+#experience-container p {
     margin-top: .5rem;
     align-self: flex-start;
     font-weight: 400;
+}
+
+#experience-container .experience{
+    width: 46rem;
+    padding-left: 1rem;
+    margin-bottom: 0rem;
+    font-weight: 300;
+}
+.experience h2,h4 {
+    font-weight: 400;
+}
+
+#experience-container #list{
+    border-radius: 10px;
+    border-left: solid 5px grey;
+    margin-bottom: 5rem;
+
+}
+
+hr {
+    border-radius: 100%;
+    width: 46rem;
 }
 
 
